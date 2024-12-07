@@ -50,7 +50,7 @@ class JobAnalyzer {
     setupEventListeners() {
         const fileUpload = document.getElementById('fileUpload');
         const closeModal = document.getElementById('closeModal');
-        
+             
         if (fileUpload) {
             fileUpload.addEventListener('change', this.handleFileUpload.bind(this));
         }
